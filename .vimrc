@@ -8,6 +8,9 @@ set laststatus=2
 set showmode
 set showcmd
 set matchpairs+=<:>
+set tabstop=4
+set shiftwidth=4
+set noexpandtab
 
 if filereadable(expand("~/.vimrc.plug"))
 	source ~/.vimrc.plug
